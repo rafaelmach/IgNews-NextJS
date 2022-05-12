@@ -11,6 +11,7 @@
 
 .hero {
   max-width: 600px;
+  
 
   // Pegar o span que está diretamente dentro do .hero ... usa-se ... > span
   > span {
@@ -38,6 +39,10 @@
       color: var(--cyan-500);
       font-weight: bold;
     }
+  }
+
+  button {
+    margin-top: 2.5rem;
   }
 
 }
